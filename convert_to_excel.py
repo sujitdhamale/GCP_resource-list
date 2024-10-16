@@ -22,8 +22,6 @@ for block in asset_blocks:
 
 # Convert to DataFrame
 df = pd.DataFrame(asset_list)
-
-
 # Write to Excel
 output_file = '/mnt/data/asset_data.xlsx'
 df.to_excel(output_file, index=False)
